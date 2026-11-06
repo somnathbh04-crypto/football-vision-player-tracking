@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local video footage
+*.mp4
+*.avi
+*.mov
+
+# YOLO model weights
+*.pt
+
+# Generated outputs
+VIDEOS/topdown_trajectory.jpg
+VIDEOS/player_heatmap.jpg
+
+# Python environments
+.venv/
+venv/
